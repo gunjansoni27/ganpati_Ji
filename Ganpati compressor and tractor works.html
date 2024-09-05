@@ -1,0 +1,383 @@
+<html>
+    <head>
+    <title>Ganpati Compressor and tractor works</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.firstbtn{
+  color: white;
+  background-color: black;
+  border: 5px solid black;
+  margin-top: 35px;
+  float: right;
+  font-size: 16px;
+  padding: 8px 25px 8px 25px;
+}
+.firstbtn:hover{
+  border-radius: 25px;
+}
+.topbar{
+  background-color: #a20b11;
+  padding: 10px 12px;
+}
+.background{
+  /* background-attachment: fixed; */
+  background-image: url(https://images2.alphacoders.com/440/440305.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  opacity: 0.8;
+}
+.secondbtn{
+  color: white;
+  background-color: rgb(37, 34, 34);
+  border: 2px solid orangered;
+  padding: 8px 25px 8px 25px;
+  margin-left: 10px;
+}
+.secondbtn:hover{
+  border-radius: 25px;
+  background-color: black;
+  border: 1px solid black;
+}
+.thirdbtn{
+  background-color: white;
+  color: orangered;
+  border: 1px solid orangered;
+  padding: 8px 25px 8px 25px;
+  margin-top: 35px;
+}
+.thirdbtn:hover{
+  border-radius: 25px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+wrapper{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.card{
+  width: 280px;
+  height: 360px;
+  padding: 2rem 1rem;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+}
+.card:hover{
+  transform: translateY(20px);
+}
+.card:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to bottom, rgba(0,176,155,0.5) , rgba(150,201,61,1));
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+.card:hover:before{
+  opacity: 1;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card .info{
+  position: relative;
+  z-index: 3;
+  color: #0e0909;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: 0.5s all;
+}
+.card:hover .info{
+  opacity: 1;
+  transform: translateY(0px)
+}
+.card .info h1{
+ margin: 0;
+}
+.card .info p{
+letter-spacing: 1px;
+font-size: 15px;
+margin-top: 8px;
+margin-bottom: 20px;
+}
+.card .info .btn{
+  text-decoration: none;
+  padding:0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.card .info .btn:hover{
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.5); 
+}
+.ullist{
+  font-size: 18px;
+  line-height: 2.0 ;
+  padding-left: 10px;
+  /* line-height: 1cm; */
+}
+.ullist:hover{
+  color: orangered;
+  letter-spacing: 0.8;
+}
+</style>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 topbar" style="background-color: #a20b11;">
+        <i class="glyphicon glyphicon-earphone" style="font-size: 20px; color: white;">+ 91-9810628899, 8076774754, 9999935070, 8178907868  info@gctworks.com</i>
+      </div>
+    </div>
+  </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="https://www.gctworks.com/images/logo.jpg" alt="" width="90%">
+          </div>
+          <ul class="nav navbar-nav" style="padding-top: 30px; padding-left: 20px;">
+            <li><a href="#"><span style="color: black; font-size: 18px;">Home</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">About us</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">Services</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">Our Team</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">Why choose us?</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">Gallery</span></a></li>
+            <li><a href="#"><span style="color: black; font-size: 18px;">Contact Us</span></a></li>
+          </ul>
+          <button type="button" class=" firstbtn"> Get Quote <span class="glyphicon glyphicon-arrow-right"></span></button>
+          <!-- <button class="btn navbar-btn firstbtn"><span class="glyphicon glyphicon-arrow-right;">Get Quote</span></button> -->
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row background">
+          <p style="color: rgb(8, 7, 7); font-size: 16px; padding-top: 300px; font-weight: 700; padding-left: 20px;">"CUSTOMER SATISFACTION & QUALITY WORK" is our Motto ...</p>
+          <p style="font-size: 52px; font-weight: 800; color: rgb(14, 13, 13);">Ganpati Compressor and <br> Tractor Works</p>
+          <p style="font-size: 20px; color: black;">GCTW, shorts for ganpati compressor and tractor Works, traces it root back to the <br> year 2000 when it was established by Sh. Ashok kumar, the currrent chairman of the <br> company.</p>
+          <button type="button" class=" secondbtn">  Learn More  <span class="glyphicon glyphicon-arrow-right"></span></button>
+        </div>
+        <div class="row" style="padding-bottom: 100px;">
+          <!-- <div class="container"> -->
+            <div class="col-sm-6">
+            <img src="https://www.gctworks.com/images/about.jpg" alt="" width="100%" style="padding-top: 150px; padding-left: 50px;">
+            </div>
+            <div class="col-sm-6">
+              <p style="color: orangered; padding-top: 170px; font-size: 18px; font-weight: 600;">About Us</p>
+              <p style="font-size: 36px; font-weight: 900;"> Ganpati Compressor and  <br> Tractor Work </p>
+              <p style="font-size: 18px; letter-spacing: 0.8; text-align: justify ; padding-top: 20px;">GCTW, short for Ganpati Compressor and Tractor Works, traces its roots back to the year 2000 when it was established by Sh. Ashok Kumar, the current Chairman of the company. Sh. Ashok Kumar's remarkable journey is one of sheer determination and resilience, having commenced his entrepreneurial voyage at a tender age. Hailing from the picturesque Gurdaspur district of Punjab, Sh. Ashok Kumar embarked on a life-changing journey that eventually led him to the bustling city of Faridabad. At the age of 17, he, along with his elder brother, set out on a quest for a better life and greater opportunities.</p>
+              <button type="button" class=" thirdbtn">  Read More  <span class="glyphicon glyphicon-arrow-right"></span></button>
+            </div>
+          </div>
+
+          <div class="row" style="background-color: #f5f5f5; padding-bottom: 50px;">
+          <center><p style="color: orangered; font-size: 18px; font-weight: 600; padding-top: 100px;">Our Services</p> 
+          <p style="font-size: 36px; font-weight: 800;">What We Offer to Our Customers</p></center> 
+          <div class="container">
+          <div class="wrapper" style="margin-top: 50px;">
+            <div class="col-sm-4">
+            <div class="card">
+              <img src="http://3.bp.blogspot.com/-_4Z5TfTJz6s/XnNZPU9kG5I/AAAAAAAAS0U/quD7eD14miIRqZLw04lQb-b5TdRCkukxACK4BGAYYCw/s1600/unnamed.jpg" alt="" width="100%">
+              <div class="info">
+                <h3 style="font-weight: 600;">Pile Head Chipping</h3>
+                <p>GCTW is your trusted partner for proffesional pile head chipping services. Our team specilizes in precise and efficient pile head chipping</p>
+                <a href="#" class="btn">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="https://bayltd.com/wp-content/uploads/2015/04/Demo-Dismant-1.jpg" alt="" width="100%">
+              <div class="info">
+                <h3 style="font-weight: 600;">Building Demolition</h3>
+                <p>At GCTW works, we are your trusted partner for safe, efficient and proffesionals building dismolition services. With a track record of successful dismolition</p>
+                <a href="#" class="btn">read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="https://theconstructor.org/wp-content/uploads/2020/05/How-to-Demolish-a-Building-Safely.jpg" alt="" width="100%">
+              <div class="info">
+                <h3 style="font-weight: 600;">High Rise Building Demolition</h3>
+                <p>When it comes to demolishing high-rise structures, GCTW stand out as a leader in the industry. Out team experienced proffesionals.</p>
+                <a href="#" class="btn">read more</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 80px;">
+        <center><p style="font-size: 40px; font-weight: 800;">Why Choose Us?</p></center>
+      </div>
+      <table class="table table-striped" style="margin-top: 50px;">
+        <!-- <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Experience and Expertise</td>
+            <td>With a wealth of experience in the industry, we have successfully completed numerous projects across various sectors. Our team is highly skilled and well-trained, ensuring that your project is in capable hands.</td>
+            
+          </tr>
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Cutting-Edge Technology</td>
+            <td>We believe in staying at the forefront of technology. Our state-of-the-art equipment and machinery ensure that your project is completed with maximum efficiency and precision.</td>
+           
+          </tr>
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Safety First</td>
+            <td>Your safety and the safety of our team is our top priority. We adhere to strict safety protocols to protect everyone involved in our projects, as well as the surrounding environment.
+            </td>
+           
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Customized Solutions
+            </td>
+            <td>We understand that every project is unique. We tailor our solutions to meet your specific needs and project requirements, ensuring that the results exceed your expectations.
+            </td>
+           
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Environmental Responsibility
+            </td>
+            <td>We are committed to eco-friendly practices, including responsible waste disposal and recycling. When you choose us, you're choosing a partner that cares about the environment.
+            </td>
+           
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Timely Execution
+            </td>
+            <td>We understand the value of time in any project. We work diligently to meet your project timelines, ensuring that your plans stay on track.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Competitive Pricing
+            </td>
+            <td>We offer cost-effective solutions without compromising on the quality of our services. You can trust us to deliver value for your investment.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Customer Satisfaction
+            </td>
+            <td>Your satisfaction is our priority. We strive to not only meet but exceed your expectations, ensuring that you are happy with the results.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="font-size: 18px; font-weight: 600;">Proven Track Record
+            </td>
+            <td>We have a successful track record of delivering projects to the satisfaction of our clients. Our portfolio speaks to the quality of our work.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="row" style="background-color: #740d0d; margin-top: 100px;">
+        <div class="container" style="background-color: #f5f5f5;">
+          <div class="col-sm-3" style="color: #aaaaaa; border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color: white;">
+          <span class="glyphicon glyphicon-ok-circle" style="font-size: 42px; color: orangered; padding-top: 50px;"></span>
+          <p style="font-size: 42px; font-weight: 800; color: black;">125<span style="color: orangered; font-size: 32px; padding-top: 30px;">+</span></p>
+          <p style="font-size: 18px;">Project Done</p>
+          </div>
+          <div class="col-sm-3" style="color: #aaaaaa; border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color: white;">
+            <span class="glyphicon glyphicon-thumbs-up" style="font-size: 42px; color: orangered; padding-top: 50px;"></span>
+            <p style="font-size: 42px; font-weight: 800; color: black;">200<span style="color: orangered; font-size: 32px; padding-top: 30px;">+</span></p>
+            <p style="font-size: 18px;">Happy Customer</p>
+          </div>
+          <div class="col-sm-3" style="color: #aaaaaa; border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color: white;">
+            <span class="glyphicon glyphicon-asterisk" style="font-size: 42px; color: orangered; padding-top: 50px;"></span>
+            <p style="font-size: 42px; font-weight: 800; color: black;">15<span style="color: orangered; font-size: 32px; padding-top: 30px;">+</span></p>
+            <p style="font-size: 18px;">Year Experience</p>
+          </div>
+          <div class="col-sm-3" style="color: #aaaaaa; border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color: white;">
+            <span class="glyphicon glyphicon-user" style="font-size: 42px; color: orangered; padding-top: 50px;"></span>
+            <p style="font-size: 42px; font-weight: 800; color: black;">70<span style="color: orangered; font-size: 32px; padding-top: 30px;">+</span></p>
+            <p style="font-size: 18px;">Team Experts</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+      <center><p style="color: orangered; font-size: 16px; font-weight: 600;">Testimonials</p>
+      <p style="font-size: 42px; font-weight: 800;">What Our Clients Say</p></center>
+      <div class="container"> 
+      <div class="col-sm-4" style="border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color: #f5f5f5; padding-top: 50px;">
+      <p style="font-size: 18px;">"Expectional products and outstanding customer services define ganpati compressor and tractor works. I confidently recommend them to anyone seeking reliable and high-quality and customer satisfaction is truely commandable."</p>
+      <p style="font-size: 18px; font-weight: 600; padding-top: 20px;">Anshuman Bhatia</p>
+      <p style="color: grey;">Faridabad</p>
+      </div> 
+      <div class="col-sm-4" style="border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color:#f5f5f5; padding-top: 50px;">
+        <p style="font-size: 18px;">"Expectional products and outstanding customer services define ganpati compressor and tractor works. I confidently recommend them to anyone seeking reliable and high-quality and customer satisfaction is truely commandable."</p>
+        <p style="font-size: 18px; font-weight: 600; padding-top: 20px;">Aman Verma</p>
+      <p style="color: grey;">Gurugram</p>
+
+      </div> 
+      <div class="col-sm-4" style="border: 1px solid grey; padding-left: 30px; margin-top: 80px; background-color:#f5f5f5; padding-top: 50px;">
+        <p style="font-size: 18px;">"Expectional products and outstanding customer services define ganpati compressor and tractor works. I confidently recommend them to anyone seeking reliable and high-quality and customer satisfaction is truely commandable."</p>
+        <p style="font-size: 18px; font-weight: 600; padding-top: 20px;">Vishal Saxena</p>
+      <p style="color: grey;">Faridabad</p>
+      </div> 
+      </div>
+      </div> 
+      <div class="row" style="background-color: black; color: white; margin-top: 50px; padding-top: 100px;">
+       <!-- <div class="conatiner"> -->
+        <div class="col-sm-6">
+        <p style="font-size: 24px; font-weight: 600; line-height: 2.0;">Ganpati Compressor and Tractor Work</p>
+        <p style="font-size: 18px;">GCTW, short for Ganpati Compressor and Tractor Works, traces its roots back to the year 2000 when it was established by Sh. Ashok Kumar, the current Chairman of the company. Sh. Ashok Kumar's remarkable journey is one of sheer determination and resilience, having commenced his entrepreneurial voyage at a tender age.
+        </p>
+        </div>
+       <div class="col-sm-3">
+          <p style="font-size: 24px; font-weight: 600; padding-left: 110px;">Useful Links</p>
+        <ul style="padding-left: 110px; padding-top: 20px;">
+            <li class="ullist">RCC Structure</li>
+            <li class="ullist">Building Demolition</li>
+            <li class="ullist">Dismantling</li>
+            <li class="ullist">Pile Head Chipping</li>
+            <li class="ullist">Steal Stracking</li>
+            <li class="ullist">Debris Dumping</li>
+            <li class="ullist">Excavating Services</li>
+          </ul> 
+        </div> 
+        <div class="col-sm-3">
+          <p style="font-size: 24px; font-weight: 600; ">Get In Touch</p>
+          <p style="font-size: 18px; font-weight: 600; padding-left: 80px; padding-top: 20px;">Location</p>
+          <i class="glyphicon glyphicon-globe" style="font-size:24px"></i>
+        </div>
+       </div>
+      </div>
+    </div>         
+</body>
+</html>
+
+
